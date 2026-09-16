@@ -136,7 +136,6 @@ flash tier is overridable via a single constant at the top of each agent module.
 ```text
 code/
 ├── main.py                        # Orchestrator: build DB -> iterate requests -> write output.csv
-├── README.md                      # This document
 └── src/
     ├── database/
     │   ├── build_context.py       # SQLite ingestion: dataset/ -> build/agent_context.db
